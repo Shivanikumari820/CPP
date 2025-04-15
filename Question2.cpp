@@ -613,9 +613,7 @@ int main()
 // int flag = 0;
 // for (int i = 1; i < n; i++) {
 //     if (A[i] <= A[i - 1]) {
-//         flag = 1;
-        
-//     }
+//         flag = 1; }
 //     else {
 //         flag = 0;
 //         break;
