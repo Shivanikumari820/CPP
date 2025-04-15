@@ -718,6 +718,31 @@ int main()
     // }
 
 
+// or   = by reverse loop 
+
+    //  cout << "Enter elements: ";
+    // for (int i = 0; i < n; i++) {
+    //     cin >> A[i];
+    // }
+
+    // int x;
+    // cout << "Enter target element: ";
+    // cin >> x;
+    // for (int i = 0; i < n; i++) {    // phle pure forward direction me check krega
+    //         if(A[i] == x){
+    //             cout<<i<<" ";
+    //               break;
+    //         }
+    //     }
+    //     for (int i = n-1; i >= 0; i--) {     // then pure backward direction me check krega
+    //         if(A[i] == x){
+    //             cout<<i;
+    //             break;
+
+    //         }
+    //     }
+
+
 
 //Leetcode Ques. 1534   - Good triplet counts 
 // cout << "Enter elements: ";
