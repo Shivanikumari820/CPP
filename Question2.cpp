@@ -557,7 +557,7 @@ int main()
     //         cout<<"false";
     //     }
 
-    // Ques. check if any element is greater than n/2 return true , otherwise false ------------>>
+// Ques. check if any element is greater than n/2 return true , otherwise false ------------>>
     // cout << "Enter elements: ";
     // for (int i = 0; i < n; i++)
     // {
@@ -764,8 +764,7 @@ int main()
 
 // }
 // cout << "Number of good triplets: " << count << endl;
-return 0;
-}
+
 
 /* LOGIC of 1534 question of leetcode ---------------->>>
 
@@ -781,5 +780,32 @@ a = 7, b = 2, c = 3
 |arr[0] - arr[3]| = |3 - 1| = 2 <= 3 ✔️
 So this is a good triplet   ,output is 4 (means 4 combinations bne h )✅                               */
   
+
+// Leetcode 167 
+cout << "Enter elements: ";
+for (int i = 0; i < n; i++) {
+    cin >> A[i];
+}
+
+int x;
+cout<<"enter target element";
+cin>>x;
+int i = 0 , j =n-1;
+while (i<j) {
+    int sum = A[i] + A[j];
+    if (sum == x) {
+           cout <<i+1<< j+1;
+           break;
+    } else if (sum < x) {
+        i++; 
+    } else {
+        j--;
+    }
+
+}
+return 0;
+}
+
+
 
 
