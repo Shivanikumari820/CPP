@@ -782,26 +782,46 @@ So this is a good triplet   ,output is 4 (means 4 combinations bne h )✅       
   
 
 // Leetcode 167 
+// cout << "Enter elements: ";
+// for (int i = 0; i < n; i++) {
+//     cin >> A[i];
+// }
+
+// int x;
+// cout<<"enter target element";
+// cin>>x;
+// int i = 0 , j =n-1;
+// while (i<j) {
+//     int sum = A[i] + A[j];
+//     if (sum == x) {
+//            cout <<i+1<< j+1;   //jis index pr bhi vo do numbers h unse 1 ,1 increment hokr aaye
+//            break;
+//     } else if (sum < x) {
+//         i++; 
+//     } else {
+//         j--;
+//     }
+
+// }
+
+// Leetcode 1 (Two sum)
 cout << "Enter elements: ";
 for (int i = 0; i < n; i++) {
     cin >> A[i];
 }
-
 int x;
 cout<<"enter target element";
 cin>>x;
-int i = 0 , j =n-1;
-while (i<j) {
-    int sum = A[i] + A[j];
-    if (sum == x) {
-           cout <<i+1<< j+1;
-           break;
-    } else if (sum < x) {
-        i++; 
-    } else {
-        j--;
-    }
 
+int c = 0 , b, i, j;
+for ( i = 0; i<n;i++){
+    for (j = i+1; j<n;j++){
+        if(A[i]+A[j] == x){
+            c = i;
+            b = j;
+            cout<<c<<" "<<b;
+        }
+    }
 }
 return 0;
 }
