@@ -805,26 +805,48 @@ So this is a good triplet   ,output is 4 (means 4 combinations bne h )✅       
 // }
 
 // Leetcode 1 (Two sum)
-cout << "Enter elements: ";
-for (int i = 0; i < n; i++) {
-    cin >> A[i];
-}
-int x;
-cout<<"enter target element";
-cin>>x;
+// cout << "Enter elements: ";
+// for (int i = 0; i < n; i++) {
+//     cin >> A[i];
+// }
+// int x;
+// cout<<"enter target element";
+// cin>>x;
 
-int c = 0 , b, i, j;
-for ( i = 0; i<n;i++){
-    for (j = i+1; j<n;j++){
-        if(A[i]+A[j] == x){
-            c = i;
-            b = j;
-            cout<<c<<" "<<b;
-        }
-    }
+// int c = 0 , b, i, j;
+// for ( i = 0; i<n;i++){
+//     for (j = i+1; j<n;j++){
+//         if(A[i]+A[j] == x){
+//             c = i;
+//             b = j;
+//             cout<<c<<" "<<b;
+//         }
+//     }
+// }
+
+
+// Leetcode 35
+    // cout << "Enter elements in sorted order: ";
+    // for (int i = 0; i < n; i++) {
+    //     cin >> A[i];
+    // }
+
+    // int x;
+    // cout << "Enter target element: ";
+    // cin >> x;
+
+    // int pos = n; // default position: insert at end
+    // for (int i = 0; i < n; i++) {
+    //     if (A[i] >= x) {
+    //         pos = i;
+    //         break;
+    //     }
+    // }
+
+    // cout << "Insert position: " << pos << endl;
+    return 0;
 }
-return 0;
-}
+
 
 
 
