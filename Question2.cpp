@@ -844,6 +844,38 @@ So this is a good triplet   ,output is 4 (means 4 combinations bne h )✅       
     // }
 
     // cout << "Insert position: " << pos << endl;
+
+
+
+// Leetcode 204 (count prime)    
+    // class Solution {
+    //     public:
+    //         int countPrimes(int n) {
+    //             if (n <= 2) return 0;  // No primes less than 2
+        
+    //             vector<bool> isPrime(n, true);  // Assume all numbers are prime
+    //             isPrime[0] = isPrime[1] = false;  // 0 and 1 are not prime numbers
+        
+    //             for (int i = 2 ; i*i < n; ++i) {  // Only need to loop till sqrt(n)
+    //                 if (isPrime[i]) {
+    //                     for (int j = i * i; j < n; j += i) {  // Mark multiples as not prime
+    //                         isPrime[j] = false;
+    //                     }
+    //                 }
+    //             }
+        
+    //             // Count prime numbers
+    //             int count = 0;
+    //             for (int i = 2; i < n; ++i) {
+    //                 if (isPrime[i]) {
+    //                     count++;
+    //                 }
+    //             }
+        
+    //             return count;
+    //         }
+    //     };
+        
     return 0;
 }
 
