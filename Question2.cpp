@@ -876,6 +876,38 @@ So this is a good triplet   ,output is 4 (means 4 combinations bne h )✅       
     //         }
     //     };
         
+
+// Leetcode 137      
+    //  for(int i = 0; i<n; i++){
+    //     cin>>A[i];
+    // }
+    // for(int i = 0; i <n; i++) {
+    //     int count = 1;  // Count occurrences of A[i]
+    //     int flag = 0;   // Check if A[i] has already been counted
+
+    //     // Check if A[i] has already been counted
+    //     for(int j = 0; j < i; j++) {
+    //         if(A[i] == A[j]) {
+    //             flag = 1;
+    //             break;
+    //         }
+    //     }
+
+    //     if(flag == 1) {
+    //         continue; // Skip if A[i] has already been counted
+    //     }
+
+    //     // Count occurrences of A[i] in the rest of the array
+    //     for(int j = i + 1; j <n; j++) {
+    //         if(A[i] == A[j]) {
+    //             count++;
+    //         }
+    //     }
+    //     if(count != 3) {
+    //         cout<<A[i];
+    //     }
+    // }
+       
     return 0;
 }
 
