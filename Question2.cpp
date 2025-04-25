@@ -907,7 +907,8 @@ So this is a good triplet   ,output is 4 (means 4 combinations bne h )✅       
     //         cout<<A[i];
     //     }
     // }
-       
+
+    
     return 0;
 }
 
