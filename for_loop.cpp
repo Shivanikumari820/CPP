@@ -89,7 +89,7 @@ int main() {
 
     // return 0;
 
-
+//factorial program ---->>
     //    int n;
     //     cout << "Enter a number: ";
     //     cin >> n;
