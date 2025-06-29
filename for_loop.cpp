@@ -18,6 +18,7 @@ int main() {
     //     sum+=i;
     // }
     // cout<<sum;
+    
 
 // print prime no.  ------------>>  
 
