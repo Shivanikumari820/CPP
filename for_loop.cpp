@@ -18,7 +18,7 @@ int main() {
     //     sum+=i;
     // }
     // cout<<sum;
-    
+
 
 // print prime no.  ------------>>  
 
@@ -48,6 +48,7 @@ int main() {
 //    table = n*i;
 //    cout<<table<<" ";
 // }
+
 
 
 // print  prime no. lies between a to b  -------------->>>
